@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./components/AppHeader";
+import TodoList from "./components/TodoList";
+import SearchPanel from "./components/SearchPanel";
 
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <Header />
+      <SearchPanel />
+      <TodoList />
     </>
   );
 }
